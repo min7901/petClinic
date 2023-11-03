@@ -134,6 +134,12 @@
       <scope>test</scope>
     </dependency>
     <dependency>
+     <groupId>org.apache.maven.plugins</groupId>
+     <artifactId>maven-shade-plugin</artifactId>
+     <version>3.2.4</version>
+     <type>maven-plugin</type>
+    </dependency>
+    <dependency>
       <groupId>org.testcontainers</groupId>
       <artifactId>mysql</artifactId>
       <scope>test</scope>
